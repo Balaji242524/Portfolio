@@ -507,6 +507,64 @@ img {
     column-gap: 2rem;
   }
 
+ 
+  .certifications-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.certificate-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.certificate-img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.certificate-details {
+    max-width: 700px;
+}
+
+.certificate-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.certificate-details p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:var(--gardient-color--);
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background: var(--gardient-color--);
+}
   .contact_form {
     width: 400px;
   }
