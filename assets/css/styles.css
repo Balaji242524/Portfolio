@@ -350,6 +350,8 @@ img {
   width: 85%;
 }
 
+
+
 /* WORK */
 
 .work {
@@ -484,11 +486,12 @@ img {
   .home_img {
     width: 460px;
     bottom: 15%;
+    border-radius: 100%;
   }
 
-  .home_img svg {
+  /* .home_img svg {
     width: 100%;
-  }
+  } */
 
   .about_container,
   .skills_container {
@@ -497,9 +500,9 @@ img {
     text-align: initial;
   }
 
-  .about_img svg {
+  /* .about_img svg {
     width: 450px;
-  }
+  } */
 
   .work_container {
     grid-template-columns: repeat(3, 1fr);
